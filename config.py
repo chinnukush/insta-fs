@@ -6,14 +6,14 @@ from logging.handlers import RotatingFileHandler
 
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8305589280:AAFJN1RILEFd-QQCLutcqWuepXiPjGXcBJk")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7508752731:AAGm5YoMihNX7YTnOCe-tt_2a7UI2OktSGg")
 APP_ID = int(os.environ.get("APP_ID", "15671595")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002082701021")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "harikushal") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7253187871")) # Owner id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002515386092")) #Your db channel Id
+OWNER = os.environ.get("OWNER", "Cz_owner") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "6566268406")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -21,7 +21,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anikush8310:4wTqyEhgZh96x
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Harikushal")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Hari_moviez")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/hJVcT9rH/image.jpg")
