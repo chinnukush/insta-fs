@@ -24,8 +24,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Hari_moviez")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/MxQGzGmx/image.jpg https://i.ibb.co/93GrHFMX/image.jpg https://i.ibb.co/sd6db3Sf/image.jpg https://i.ibb.co/4Z8cfZTV/image.jpg https://i.ibb.co/TG9ZwgB/image.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/r22r3g6Y/image.jpg")
+START_PIC = os.environ.get("START_PIC", "https://image.zaw-myo.workers.dev/image/43f6441b-e15f-4d08-a2ee-8c0f6b92e85f")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://image.zaw-myo.workers.dev/image/e3031533-e96c-4e57-b248-a8f3726d4211")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
@@ -33,7 +33,7 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "45b6928d65d1c1dfc2d52d052d879b9
 TUT_VID = os.environ.get("TUT_VID","https://t.me/TG_Bots_Support/234")
 SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇғᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ......</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://i.ibb.co/r22r3g6Y/image.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.zaw-myo.workers.dev/image/e3031533-e96c-4e57-b248-a8f3726d4211")
 #--------------------------------------------
 
 #--------------------------------------------
