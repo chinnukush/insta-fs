@@ -30,7 +30,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://image.zaw-myo.workers.dev/image
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/TG_Bots_Support/234")
+TUT_VID = os.environ.get("TUT_VID","https://www.instagram.com/reel/DPdcKpEEdl7/?igsh=MWoyc3lzOXd3bWZweg==")
 SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇғᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ......</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.zaw-myo.workers.dev/image/e3031533-e96c-4e57-b248-a8f3726d4211")
