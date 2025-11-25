@@ -11,7 +11,7 @@ APP_ID = int(os.environ.get("APP_ID", "15671595")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002515386092")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002082701021")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "Cz_owner") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "6566268406")) # Owner id
 #--------------------------------------------
@@ -30,7 +30,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://image.zaw-myo.workers.dev/image
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "45b6928d65d1c1dfc2d52d052d879b9b02dd7fe3")
-TUT_VID = os.environ.get("TUT_VID","https://www.instagram.com/reel/DPdcKpEEdl7/?igsh=MWoyc3lzOXd3bWZweg==")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Brand_moviess/6")
 SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇғᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ......</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.zaw-myo.workers.dev/image/e3031533-e96c-4e57-b248-a8f3726d4211")
