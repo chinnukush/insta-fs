@@ -6,14 +6,14 @@ from logging.handlers import RotatingFileHandler
 
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7508752731:AAGm5YoMihNX7YTnOCe-tt_2a7UI2OktSGg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8261229851:AAGGgQFVWMTZKo4IdWogeP7mnd1YYYuIJ3M")
 APP_ID = int(os.environ.get("APP_ID", "15671595")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002082701021")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "Cz_owner") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "6566268406")) # Owner id
+OWNER = os.environ.get("OWNER", "chandru1034") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "7087329103")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -37,8 +37,8 @@ SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://image.zaw-myo.workers.d
 #--------------------------------------------
 
 #--------------------------------------------
-HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @Hari_moviez\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/Cz_owner>Owner</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/hari_moviez>Kannada Backup</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/TG_BOTS_UPDATE>ʜᴋ ᴄʜᴀɴɴᴇʟ ɴᴇᴛᴡᴏʀᴋ</a></blockquote></b>"
+HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴀɴ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ \n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/chandru1034>Owner</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/chandru1034>Owner</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {mention} 👋\n\n<blockquote> ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote></b>")
@@ -79,10 +79,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "Cz_owner")
+OWNER_TAG = os.environ.get("OWNER_TAG", "chandru1034")
 UPI_ID = os.environ.get("UPI_ID", "harikushal@slc")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/VcFmGqSF/image.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Cz_owner")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/chandru1034")
 #--------------------------------------------
 #Time and its price
 #7 Days
