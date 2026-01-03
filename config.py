@@ -21,7 +21,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anikush8310_db_user:9PMno
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/chandru1034")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/suryabm04")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://image.zaw-myo.workers.dev/image/43f6441b-e15f-4d08-a2ee-8c0f6b92e85f")
@@ -79,7 +79,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "chandru1034")
+OWNER_TAG = os.environ.get("OWNER_TAG", "suryabm04")
 UPI_ID = os.environ.get("UPI_ID", "suryabm18@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/D3hRCwp/7253187871-24363.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/chandru1034")
