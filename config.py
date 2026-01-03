@@ -12,8 +12,8 @@ API_HASH = os.environ.get("API_HASH", "bb8f36f9c39a24c7f8b2acbc7ea8c60a") #Your 
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003578841865")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "chandru1034") # Owner username without @
-OWNER_ID = int(os.environ.get("OWNER_ID", "7087329103")) # Owner id
+OWNER = os.environ.get("OWNER", "harikushal") # Owner username without @
+OWNER_ID = int(os.environ.get("OWNER_ID", "7253187871")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
@@ -21,7 +21,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anikush8310_db_user:9PMno
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluooo")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Hari_moviez")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/chandru1034")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://image.zaw-myo.workers.dev/image/43f6441b-e15f-4d08-a2ee-8c0f6b92e85f")
